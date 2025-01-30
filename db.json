@@ -2,32 +2,33 @@
   "projects": [
     {
       "id": 1,
-      "title": "Module 2 Project",
+      "title": "Doodle in C major",
       "description": "Module 2 project - Integrate a React app with backend.",
+      "notes": ["C4", "A4", "E4", "G4"],
+      "duration": 10,
+      "genre": "pop",
       "userId": 1
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
+      "title": "Doodle in D minor",
       "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "notes": ["E#", "A", "E", "B"],
+      "duration": 10,
+      "genre": "jazz",
+      "userId": 2
     }
   ],
-  "tasks": [
+  "users": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "userId": 1,
+      "fullName": "Paulo Prado"
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "userId": 2,
+      "fullName": "Trix Mostert"
     }
   ]
 }
